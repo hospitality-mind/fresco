@@ -66,37 +66,40 @@
 		</div>
 	</div--><!-- Loader /- -->
 	
+	
 	<!-- Header -->
-	<header class="header-section container-fluid no-padding">
-		<!-- Top Header -->
-		<div class="top-header container-fluid no-padding">
+	<header class="header-section header-section-1 container-fluid no-padding">
+		<!-- Top Header 1 -->
+		<div class="top-header top-header-1 container-fluid no-padding">
 			<!-- Container -->
 			<div class="container">
-				<!-- Social -->
-				<div class="col-md-7 col-sm-6 col-xs-12 info">
-						<p><i class="icon icon-Phone2"></i><a href="tel:(+01)1234567890" title="Phone" class="phone">+91 84491 79531</a></p>
+				<div class="row">
+					<!-- Info -->
+					<div class="col-md-7 col-sm-6 col-xs-12 info">
+						<p><i class="icon icon-Phone2"></i><a href="tel:+91 84491 79531" title="Phone" class="phone">+91 84491 79531</a></p>
 						<p><i class="icon icon-Pointer"></i>Haridwar, Uttarakhand</p>
 					</div>
-				<div class="col-md-5 col-sm-6 col-xs-12 header-social"> 
-					<h5>Follow Us</h5>
-					<ul>
-						<li><a href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#" title="Instagram"><i class="fa fa-instagram"></i></a></li>
-						<!-- <li><a href="#" title="Google"><i class="fa fa-google-plus"></i></a></li> -->
-						<!-- <li><a href="#" title="linkedin"><i class="fa fa-linkedin"></i></a></li> -->
-						<!-- <li><a href="#" title="Tripadvisor"><i class="fa fa-tripadvisor"></i></a></li> -->
-					</ul>
-				</div><!-- Social /- -->
+					<!-- Info /- -->
+					<!-- Social -->
+					<div class="col-md-5 col-sm-6 col-xs-12 header-social"> 
+						<ul>
+							<li><a href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+							<!-- <li><a href="#" title="linkedin"><i class="fa fa-linkedin"></i></a></li> -->
+							<!-- <li><a href="#" title="Skype"><i class="fa fa-skype"></i></a></li> -->
+						</ul>
+					</div><!-- Social /- -->
+				</div>
 			</div><!-- Container /- -->
-		</div><!-- Top Header /- -->
+		</div><!-- Top Header 1 /- -->
 		
 		<!-- Menu Block -->
 		<div class="menu-block container-fluid">
 			<!-- Container -->
 			<div class="container">
-				<!-- Navigation -->
-				<nav class="navbar ow-navigation">
+				<!-- nav -->
+				<nav class="navbar navbar-default ow-navigation">
 					<div class="navbar-header">
 						<button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
 							<span class="sr-only">Toggle navigation</span>
@@ -104,160 +107,114 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a title="Logo" href="index.html" class="navbar-brand"><img src="img/fresco-logo.jpeg"></a>
-						<!-- <h1 style="font-weight: bold;">The Fresco Resort</h1> -->
+						<a title="Logo" href="index.html" class="navbar-brand"><img src="img/fresco-resort-logo-main.png"></a>
+						<!-- <h1 style="font-weight: bold; color: #fff; margin-top: 35px;">The Fresco Resort</h1> -->
+						<!-- <a href="index.html"><img src="img/fresco-resort-logo-main.png" alt="logo" class="img-nav"></a> -->
 					</div>
-					<div class="navbar-collapse collapse" id="navbar">
-						<ul class="nav navbar-nav">
-							<li><a href="index1.html" role="button">Home</a></li>
-							<li class="active"><a title="About Us" href="about.html">About Us</a></li>
+					<!-- Menu Icon -->
+					<!-- <div class="menu-icon">
+						<div class="search">	
+							<a href="#" id="search" title="Search"><i class="icon icon-Search"></i></a>
+						</div>
+					</div> -->
+					<!-- Menu Icon /- -->
+					<div class="navbar-collapse collapse navbar-right" id="navbar">
+						<ul class="nav navbar-nav header2">
+							<li class="dropdown active">
+								<a href="index.html" title="Home" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
+								<!-- <i class="ddl-switch fa fa-angle-down"></i>
+								<ul class="dropdown-menu">	
+									<li><a href="index.html" title="HomePage 1">HomePage 1</a></li>
+									<li><a href="index2.html" title="HomePage 2">HomePage 2</a></li>
+								</ul> -->
+							</li>
+							<li><a title="About Us" href="about.html">About Us</a></li>
 							<li><a title="Rooms" href="rooms.html">Our Rooms</a></li>
-							<li><a title="Amenities" href="amenities.html">near by places </a></li>
 							<li><a title="Restaurant" href="restaurant.html">Restaurant</a></li>
 							<li><a title="Gallery" href="gallery.html">Gallery</a></li>
+								<li><a title="Amenities" href="amenities.html">near by places </a></li>
+							<!-- <li class="dropdown">
+								<a href="#" title="Gallery" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Gallery</a>
+								<i class="ddl-switch fa fa-angle-down"></i>
+								<ul class="dropdown-menu">	
+									<li><a title="Gallery Single" href="gallery-single.html">Gallery Single</a></li>
+								</ul>
+							</li> -->
+							<!-- <li class="dropdown">
+								<a aria-expanded="false" aria-haspopup="true" role="button" class="dropdown-toggle" title="Pages" href="blog.html">Pages</a>
+								<i class="ddl-switch fa fa-angle-down"></i>
+								<ul class="dropdown-menu">	
+									<li><a title="Blog" href="blog.html">Blog</a></li>
+									<li><a title="Blog Post" href="blog-post.html">Blog Post</a></li>
+									<li><a title="404" href="404.html">404</a></li>
+								</ul>
+							</li> -->
 							<li><a title="Contact" href="contact-us.html">Contact</a></li>
-							<li><button class="btn"><a href="#" class="book-now-btn">Book Now</a></button></li>
-						</ul>						
-					</div>
-				</nav><!-- Navigation -->
-			</div>
+							<li><button class="btn"><a href="contact-us.html" class="book-now-btn">Book Now</a></button></li>
+							<!-- <li><button class="btn"><a href="#" style="color: black; text-decoration: none; font-weight: bold;">Book Now</a></button></li> -->
+						</ul>
+						
+					</div><!--/.nav-collapse -->
+				</nav><!-- nav /- -->
+				<!-- Search Box -->
+				<!-- <div class="search-box">
+					<span><i class="icon_close"></i></span>
+					<form><input class="form-control" placeholder="Enter a keyword and press enter..." type="text"></form>
+				</div> -->
+				<!-- Search Box /- -->
+			</div><!-- Container /- -->
 		</div><!-- Menu Block /- -->
 	</header><!-- Header /- -->
-	
 	<main>
+
+		
 		<!-- Page Banner -->
 		<div class="page-banner blog-banner container-fluid no-padding">
 			<div class="banner-content">
-				<h3>Blog</h3>
+				<h3>Deluxe Room</h3>
 				<ol class="breadcrumb">
 					<li><a href="index.html" title="Home">Home</a></li>							
-					<li class="active">Blog</li>
+					<li><a href="#" title="Gallery">Rooms</a></li>							
+					<li class="active">Deluxe Room</li>
 				</ol>
 			</div>
 		</div><!-- Page Banner /- -->
 		<!-- Container -->
-		<div class="container">
-			<!-- Content Area -->
-			<div class="content-area blog-section col-md-8 col-sm-8 col-xs-12">
-				<article class="type-post">
-					<div class="entry-cover">
-						<a title="Blog" href="blog-post.html">
-							<img alt="blog" src="images/blog-1.jpg" />
-						</a>
-					</div>
-					<div class="blog-content">
-						<div class="entry-header">
-							<div class="entry-meta">
-								<div class="post-admin">By <a href="#" title="20 Comments">Admin</a></div>
-								<div class="post-date"><a href="#" title="May 10, 2016">May 10, 2016</a></div>
-							</div>
-							<h3 class="entry-title"><a title="The mate was a mighty sailin' man the Skipper brave and sure. Five passengers set sail that day " href="blog-post.html">The mate was a mighty sailin' man the Skipper brave and sure. Five passengers set sail that day </a></h3>
-						</div>
-						<div class="entry-content">
-							<p>These are the voyages of the Starship Enterprise. All of them had hair of gold like their mother the youngest one in curls. Just sit right back and you'll hear a tale a tale of a fateful trip that started from this tropic port aboard this tiny ship. Now the world don't move to the beat of just drum. What might be right for you may not be right for some.</p>
-						</div>
-						<a href="blog-post.html" class="read-more"><i class="fa fa-angle-right"></i></a>
-					</div>
-				</article>
-				
-				<article class="type-post">
-					<div class="entry-cover">
-						<a title="Blog" href="blog-post.html">
-							<img alt="blog" src="images/blog-2.jpg" />
-						</a>
-					</div>
-					<div class="blog-content">
-						<div class="entry-header">
-							<div class="entry-meta">
-								<div class="post-admin">By <a href="#" title="20 Comments">Admin</a></div>
-								<div class="post-date"><a href="#" title="May 10, 2016">May 10, 2016</a></div>
-							</div>
-							<h3 class="entry-title"><a title="Would you be mine? Could you be mine? Its a neighborly day in this beautywood a neighborly day for a beauty." href="blog-post.html">Would you be mine? Could you be mine? Its a neighborly day in this beautywood a neighborly day for a beauty. </a></h3>
-						</div>
-						<div class="entry-content">
-							<p>These are the voyages of the Starship Enterprise. All of them had hair of gold like their mother the youngest one in curls. Just sit right back and you'll hear a tale a tale of a fateful trip that started from this tropic port aboard this tiny ship. Now the world don't move to the beat of just drum. What might be right for you may not be right for some.</p>
-						</div>
-						<a href="blog-post.html" class="read-more"><i class="fa fa-angle-right"></i></a>
-					</div>
-				</article>
-				
-				<article class="type-post">
-					<div class="entry-cover">
-						<a title="Blog" href="blog-post.html">
-							<img alt="blog" src="images/blog-3.jpg" />
-						</a>
-					</div>
-					<div class="blog-content">
-						<div class="entry-header">
-							<div class="entry-meta">
-								<div class="post-admin">By <a href="#" title="20 Comments">Admin</a></div>
-								<div class="post-date"><a href="#" title="May 10, 2016">May 09, 2016</a></div>
-							</div>
-							<h3 class="entry-title"><a title="The weather started getting rough - the tiny ship was tossed. If not for the courage of the fearless" href="blog-post.html">The weather started getting rough - the tiny ship was tossed. If not for the courage of the fearless</a></h3>
-						</div>
-						<div class="entry-content">
-							<p>These are the voyages of the Starship Enterprise. All of them had hair of gold like their mother the youngest one in curls. Just sit right back and you'll hear a tale a tale of a fateful trip that started from this tropic port aboard this tiny ship. Now the world don't move to the beat of just drum. What might be right for you may not be right for some.</p>
-						</div>
-						<a href="blog-post.html" class="read-more"><i class="fa fa-angle-right"></i></a>
-					</div>
-				</article>
-				<nav class="ow-pagination text-center">
-					<ul class="pagination">
-						<li><a href="#">1</a></li>
-						<li><a href="#">2</a></li>
-						<li><a href="#">3</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
-					</ul>
-				</nav>
-			</div><!-- Content Area /- -->
-			
-			<!-- Widget Area -->
-			<div class="col-md-4 col-sm-4 col-xs-12 widget-area">
-				<!-- Widget Search -->
-				<aside class="widget widget_search">
-					<div class="input-group">
-						<input type="text" class="form-control" placeholder="Search Here">
-						<span class="input-group-btn">
-							<button class="btn btn-search" title="Search" type="button"><i class="icon icon-Search"></i></button>
-						</span>
-					</div>
-				</aside><!-- Widget Search /- -->
-				<!-- Widget Categories -->
-				<aside class="widget widget_categories">
-					<h3 class="widget-title">Categories</h3>
-					<ul>
-						<li><a href="#" title="Best Destination">Best Destination</a></li>
-						<li><a href="#" title="Family Destination">Family Destination</a></li>
-						<li><a href="#" title="Costly Destination">Costly Destination</a></li>
-						<li><a href="#" title="Office Cleaning">Family Packages</a></li>
-						<li><a href="#" title="World Tour">World Tour</a></li>
-					</ul>
-				</aside><!-- Widget Categories /-  -->
-				<!-- Widget Latest Post -->
-				<aside class="widget widget_latestposts">
-					<h3 class="widget-title">Latest Posts</h3>
-					<div class="latest-content">
-						<a href="blog-post.html" title="Recent Posts"><i><img alt="thumb" src="images/latest-post-1.jpg"></i></a>
-						<h5><a title="Now the world don't move to the beat of just drum" href="blog-post.html">Now the world don't move to the beat of just drum</a></h5>
-						<span>May 14, 2016</span>
-					</div>
-					<div class="latest-content">
-						<a href="blog-post.html" title="Recent Posts"><i><img alt="thumb" src="images/latest-post-2.jpg"></i></a>
-						<h5><a title="Now the world don't move to the beat of just drum" href="blog-post.html">Now the world don't move to the beat of just drum</a></h5>
-						<span>May 14, 2016</span>
-					</div>
-				</aside><!-- Widget Latest Post /- -->
-				<!-- Widget Tags -->
-				<aside class="widget widget_tags">
-					<h3 class="widget-title">popular tags</h3>
-					<a href="#" title="Rooms">Rooms</a>
-					<a href="#" title="Packages">Packages</a>
-					<a href="#" title="Resorts">Resorts</a>
-					<a href="#" title="Travels">Travels</a>
-					<a href="#" title="Food">Food</a>
-				</aside><!-- Widget Tags /- -->
-			</div><!-- Widget Area /- -->
-		</div><!-- Container /- -->
+
+  
+
+<!-- Welcome Section -->
+<div class="welcome-section-1 container-fluid">
+	<!-- Container -->
+	<div class="container">
+		<div class="col-md-4 col-sm-5 col-xs-5 wc-1-img">
+			<i><img src="img/fresco-room1.jpg" alt="welcome" /></i>
+		</div>
+		<div class="col-md-8 col-sm-7 col-xs-7 wc-max-content">
+			<div class="About-heading">
+			<h3>Deluxe Room</h3>
+			<!-- <h4>Discover Hotel Fresco in Haridwar
+			</h4> -->
+		
+
+			<p>Our Deluxe Rooms offer a perfect blend of comfort and tranquility with a cozy double bed and picturesque garden views. Each room is equipped with modern amenities including air conditioning, an ensuite bathroom, flat-screen TV, and complimentary WiFi. Whether you're traveling solo or with family, choose the number of rooms you need and reserve effortlessly to experience a peaceful stay amidst nature's beauty at Fresco Hotel.
+
+			</p>
+			<a href="#" class="learn-more" title="More About Us">Know More<i class="fa fa-caret-right"></i></a>
+		</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+		
 	</main>
 	
 	<!-- Footer Main -->

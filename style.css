@@ -585,7 +585,7 @@ a {
 	margin-bottom: 150px;
 }
 .page-banner.blog-banner {
-	background-image: url("images/blog-banner.jpg");
+	background-image: url("img/fresco-room2.jpeg");
 }
 .page-banner.contact-banner {
 	background-image: url("images/contact-banner.jpg");
@@ -801,3 +801,10 @@ a {
 		margin-right: 5px;
 	}
 }
+
+.About-heading{
+	padding-top: 80px;
+	width: 80%;
+}
+
+
