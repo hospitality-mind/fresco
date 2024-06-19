@@ -571,14 +571,14 @@ a {
 	background-image: url("img/about-1.jpeg");
 }
 .page-banner.services-banner {
-	background-image: url("images/service-banner.jpg");
+	background-image: url("img/fresco-room3.jpeg");
 	margin-bottom: 0;
 }
 .page-banner.gallerysingle-banner{
-	background-image: url("images/gallerysingle-banner.jpg");
+	background-image: url("img/fresco-room7.jpeg");
 }
 .page-banner.gallery-banner{
-	background-image: url("images/gallery-banner.jpg");
+	background-image: url("img/fresco-room1.jpg");
 	margin-bottom: 0;
 }
 .page-banner.gallery-banner.room-banner {
@@ -588,7 +588,7 @@ a {
 	background-image: url("img/fresco-room2.jpeg");
 }
 .page-banner.contact-banner {
-	background-image: url("images/contact-banner.jpg");
+	background-image: url("img/fresco-room4.jpeg");
 }
 
 /* * Section Header */
@@ -804,7 +804,39 @@ a {
 
 .About-heading{
 	padding-top: 80px;
-	width: 80%;
+	width: 100%;
 }
+
+
+/* Style the dropdown menu */
+li ul {
+    display: none; /* Hide dropdown by default */
+    position: absolute;
+    background-color: #030303;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+}
+
+/* Show dropdown on hover */
+li:hover ul {
+    display: block;
+}
+
+/* Style dropdown items */
+li ul li {
+    display: block;
+}
+
+li ul li a {
+    color: #ffffff !important;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Hover effect on dropdown items */
+li ul li a:hover {
+    background-color: #000000;
+}
+
 
 
